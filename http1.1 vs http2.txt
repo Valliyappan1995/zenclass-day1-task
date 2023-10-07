@@ -1,0 +1,38 @@
+
+HTTP/1.1
+
+It works on textual format
+
+There is a head of line blocking that blocks all the requests behind it until it doesn't get its all resources
+
+It uses requests resource Inline for getting multiple pages
+
+It compresses data by itself
+
+No Control over prioritization
+
+It affects web pages load time
+
+Most of the pages load at once if these render-blocking resources load last
+
+
+HTTP/2
+
+It works on binary format
+
+It allows multiplexing So one TCP connection is required for multiple requests
+
+It uses PUSH frame by server that collects all multiple pages
+
+PUSH Works over HTTP/2 is frames protocol. Information is exchanged in group of bytes called frames.
+
+If a client requests a web page, the server may PUSH dependent stylesheets,fonts and images to the client
+
+It compresses data using HPACK. HPACK is nothing but a format adapted to efficiently represent HTTP headers
+the context of HTTP/2
+
+Control over prioritization
+
+Doesn't affect web pages load speed. 
+
+This allows developers to decide which page resource load first, every time.

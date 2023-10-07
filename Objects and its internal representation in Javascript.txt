@@ -1,0 +1,71 @@
+
+Objects :
+
+Objects are important data types in Javascript
+
+Objects are different than primitive datatypes(Number,string,boolean)
+
+Primitive datatypes contain one value but object can hold many values in form of key value pair
+
+These keys can be variables or functions and are called properties and methods, respectively in the context 
+of an object
+
+
+Object properties :
+
+Every object has some property associated with some value
+
+These values can be accessed using these properties associated with them
+
+Eg.
+  var mybike = new object();
+  mybike.name = "pulsar";
+
+  Input : mybike.name
+  Output : pulsar
+
+
+Object methods :
+
+An Object method is an object property containing a Function definition
+
+Methods are actions that can be performed on Objects
+
+
+Object Literal :
+
+Data type used to define objects in Javascript
+
+It is a syntax for creating an object in Javascript that is composed of key-value pairs
+
+Properities and values Inside the curly braces are known as object Literal
+
+
+Object with Constructor :
+ 
+Constructor is nothing but a function and with the help of new keyword
+
+Constructor Function allows to create multiplr objects of same flavor
+
+
+Object.Create() method :
+
+Objects can be created using the object.create() method
+
+This method can be very useful, because it allows you to choose the prototype object for the object you want
+to create, without having to define a constructor function.
+
+
+Object using New keyword :
+
+Creates a new object with new keyword
+
+Eg.
+   var person = new object();
+   person.firstname = "Valliyappan";
+   person.lastname = "Ram";
+   person.age = "28";
+   
+
+
+
